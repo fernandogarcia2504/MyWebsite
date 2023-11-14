@@ -5,10 +5,11 @@ function Navbar() {
     return(
         <header>
             <img src={image1} />
-            <ul>
-                <li>About Me</li>
-                <li>Contact Me</li>
-                <li>Blog</li>
+            <ul className="navlist">
+                <li className="navlistitem">About Me</li>
+                <li className="navlistitem">Contact Me</li>
+                <li className="navlistitem" >Blog</li>
+                
             </ul>
             
 
